@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amita:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            height: 1500px;
+
+            color: rgb(168, 8, 8);
+            font-size: 20px;
+
+            font-family: Amita;
+            background-color: rgba(61, 59, 59, 0.74);
+        }
+
+        .header {
+            height: 1000px;
+            border: 3px solid rgba(61, 59, 59, 0.74);
+            border-radius: 13px;
+            background: url("athletic-man-practicing-gymnastics-keep-fit.jpg");
+            margin: 0px;
+
+            /* background-repeat: no-repeat */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .box1:hover {
+            color: rgb(58, 83, 92);
+
+        }
+
+        .box1 img {
+            width: 100px;
+            /* invert fuction use for change the image color  */
+            /* filter: invert(100%); */
+        }
+
+        .box1 {
+
+
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            margin-top: 12px;
+            text-align: center;
+        }
+
+        .box2 {
+
+            display: inline-block;
+            position: absolute;
+        top: 12px;
+            margin-left: 500px;
+            width: 33%;
+            text-align: center;
+        }
+
+        .box3 {
+
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            margin-top: 12px;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: rgb(168, 8, 8);
+            text-decoration: none;
+            padding: 12px;
+            font-size: 14px;
+            margin: 8px;
+        }
+
+        .navbar li a:hover {
+            color: rgb(58, 83, 92);
+            text-decoration: underline;
+
+        }
+
+        .btn {
+            margin: 15px;
+            padding: 10px;
+            border: 1px solid white;
+            border-radius: 25px;
+            font-size: 20px;
+
+            color: rgb(168, 8, 8);
+            cursor: pointer;
+            font-family: Amita;
+        }
+
+        .btn:hover {
+            color: rgb(58, 83, 92);
+
+        }
+
+        .hov {
+            border: 1px solid white;
+            border-radius: 25px;
+            background-color: white;
+        }
+
+        .container {
+            display: inline-block;
+            width: 30%;
+            height: 400px;
+            margin-top: 200px;
+            margin-left: 60px;
+            padding-top: 9px;
+            padding-left: 40px;
+            border-radius: 70px;
+            background-color: white;
+            /* text-align: center; */
+            border: solid white 6px;
+            text-align: center;
+        }
+
+        .form-group input::placeholder {
+            color: rgb(168, 8, 8);
+            margin: 8px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            text-align: center;
+            font-family: Amita;
+        }
+
+        .form-group input {
+            font-family: Amita;
+            color: rgb(168, 8, 8);
+            text-align: center;
+        }
+
+        .img1 img {
+            height: 500px;
+            border: 3px solid rgba(61, 59, 59, 0.74);
+            border-radius: 15px;
+            margin-top: 110px;
+            margin-right: 110px;
+            margin-left: 110px;
+            margin-bottom: 10px;
+        }
+
+        .img2 img {
+            height: 500px;
+            border: 3px solid rgba(61, 59, 59, 0.74);
+            border-radius: 15px;
+            margin: 110px;
+            margin-top: 110px;
+            margin-right: 110px;
+            margin-left: 110px;
+            margin-bottom: 10px;
+        }
+
+        .div1 {
+            border: 3px solid rgb(61, 59, 59, 0.74);
+            background-color: white;
+            border-radius: 50px;
+            display: inline-block;
+            padding: 20px 70px;
+            margin-left: 250px;
+            margin-top: 10px;
+            padding: 20px 70px;
+            margin-bottom: 30px;
+        }
+
+        .div2 {
+            border: 3px solid rgb(61, 59, 59, 0.74);
+            background-color: white;
+            border-radius: 50px;
+            display: inline-block;
+            position: absolute;
+            left: 1030px;
+            margin-top: 10px;
+            padding: 20px 70px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="box1">
+            <img src="dumbbell_2__28b_w_29.jpg" class="hov" alt="">
+            <div id="color" class="hov">Fitness</div>
+
+        </div>
+        <div class="box2">
+            <ul class="navbar">
+                <li><a href="#" class="hov" style="text-decoration-line: underline;" >Home</a></li>
+                <li><a href="#" class="hov">About us</a></li>
+                <li><a href="#" class="hov">Fitness Calculator</a></li>
+                <li> <a href="#" class="hov">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="box3">
+            <button class="btn">Call us now </button>
+            <button class="btn">Email us</button>
+        </div>
+
+        <div class="container">
+            <h1> Join the best GYM</h1>
+            <form action="noaction.php">
+                <div>
+
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your Age">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your Gender">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your Locality">
+                    </div>
+                    <button class="btn">Submit</button>
+                </div>
+            </form>
+
+        </div>
+
+    </header>
+    <div>
+        <span class="img1">
+            <img src="allpaperflare.com_wallpaper.jpg" alt="">
+        </span>
+        <span class="img2">
+            <img src="wallpaperflare.com_wallpaper.jpg" alt="">
+
+            <a href="for man.html" target="_blank" class="div1">For man</a>
+            <a href="for woman.html" target="_blank" class="div2">For Woman</a>
+        </span>
+    </div>
+</body>
+
+</html>

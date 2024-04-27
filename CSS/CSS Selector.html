@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <style>
+        /* this is class of border,color and background */
+        .ho{
+            border: 2px solid rgb(58, 0, 128);
+        }
+
+        /* this is group border */
+        p,
+        span,
+        footer,
+        div {
+            border: 2px solid green;
+        }
+
+        /* this is id selector */
+        #redelement {
+            color: aquamarine;
+            background-color: rgb(207, 153, 72);
+        }
+
+        /* this is class selector   */
+        .redbg {
+            color: blueviolet;
+            background-color: deepskyblue;
+        }
+
+        /* this is group selector */
+        footer,
+        span,
+        div {
+            background-color: aquamarine;
+            color: rgb(173, 166, 137);} 
+        #bg{
+            color: rgb(177, 112, 15);}
+        .bg{
+            background-color: beige;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="redelement" class= "ho" >CSS Selector</h1>
+    <P class="redbg">This is simple paragraph to demonstate CSS selector</P>
+    <span>this is span</span>
+    <div>this is div</div>
+    <footer>this is footer</footer>
+    <p class="bg" id="bg" >this is paragraph</p>
+
+</body>
+
+</html>
